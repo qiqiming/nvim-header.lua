@@ -70,7 +70,7 @@ function M.add_header()
 end
 
 local function setup_commands()
-    api.nvim_command('command! SetHeader lua require("auto_comment").add_header()')
+    api.nvim_command('command! SetHeader lua require("nvim-header").add_header()')
 end
 
 function M.setup(config)
